@@ -1,0 +1,22 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.ignorecase": true,
+    "vim.incsearch": true,
+    "vim.showcmd": true,
+    "vim.smartcase": true,
+    "vim.autoindent": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false
+    },
+    "solidity.compileUsingRemoteVersion": "0.4.2",
+}
