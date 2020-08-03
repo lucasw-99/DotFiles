@@ -1,10 +1,11 @@
 [user]
-	name = LW
-	email = lwotton@lyft.com
+	name = Lucas
+	email = lucaswotton515@gmail.com
 
 [alias]
     co = checkout
     up = !git pull --rebase --prune $@ && git submodule update --init --recursive
     cob = checkout -b
+    st = status
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
