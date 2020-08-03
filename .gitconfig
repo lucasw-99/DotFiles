@@ -1,0 +1,10 @@
+[user]
+	name = LW
+	email = lwotton@lyft.com
+
+[alias]
+    co = checkout
+    up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+    cob = checkout -b
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX

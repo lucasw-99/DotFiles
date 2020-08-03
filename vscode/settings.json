@@ -1,4 +1,5 @@
 {
+    "go.formatTool": "goimports",
     "vim.insertModeKeyBindings": [
         {
         "before": ["j", "j"],
@@ -19,4 +20,5 @@
         "editor.formatOnSave": false
     },
     "solidity.compileUsingRemoteVersion": "0.4.2",
+    "workbench.editor.enablePreview": false,
 }
